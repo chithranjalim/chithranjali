@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="employee.html">ADD EMPLOYEE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">SEARCH EMPLOYEE</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-xl-8">
+                <table class="table">
+                    <tr>
+                        <td>NAME</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>DESIGNATION</td>
+                        <td><input type="text"class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>SALARY</td>
+                        <td><input type="text"class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>DISTRICT</td>
+                        <td><select name="dropdown" id="#" class="form-control">
+                         <option value="select-district active">select district</option>
+                         <option value="1">THIRUVANANTHAPURAM</option>
+                         <option value="2">KOLLAM</option>
+                         <option value="3">PATHANAMTHITTA</option>
+                         <option value="4">IDUKKI</option>
+                         <option value="5">ALAPUZHA</option>
+                         <option value="6">KOTTAYAM</option>
+                         <option value="7">ERNAKULAM</option>
+                         <option value="8">THRISSUR</option>
+                         <option value="9">PALAKKAD</option>
+                         <option value="10">MALAPPURAM</option>
+                         <option value="11">KOZHIKODE</option>
+                         <option value="12">WAYANAD</option>
+                         <option value="13">KANNUR</option>
+                         <option value="14">KAZARGOD</option>
+                         </select></td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td>
+                            <input type="radio" name="1">MALE
+                            <input type="radio" name="1">FEMALE
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PLACE</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>MOBILE NO.</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td><textarea name="address" id="#" cols="15" rows="5" class="form-control"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td><input type="date" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-success">SUBMIT</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
